@@ -6,6 +6,7 @@ import {testsType } from "../model/def/types";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import ReactLoading from 'react-loading';
+import Head from 'next/head'
 
 const Alltest:NextPage = () =>{
     const [tests,setTests] = useState<testsType>({tests:[]});
@@ -30,6 +31,11 @@ const Alltest:NextPage = () =>{
     },[durl]);
     return(
         <div className={styles.center}>
+            <Head>
+                <title>ぐるぐる質問</title>
+                <meta name="description" content="ぐるぐる質問で遊ぼう" />
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
             <div className={styles.content}>
                 <div className={styles.side}>
                     <Side/>

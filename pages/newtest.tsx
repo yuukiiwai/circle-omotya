@@ -6,7 +6,7 @@ import { useState } from "react";
 import { istitleType } from "../model/def/types";
 import { is___questions, ___question } from "@yuukiiwai/hobby-enquete-component";
 import Link from "next/link";
-
+import Head from 'next/head'
 
 const Newtest:NextPage = () =>{
     const [newtitle,setNewtitle] = useState<string>("");
@@ -36,6 +36,11 @@ const Newtest:NextPage = () =>{
 
     return (
         <div className={styles.center}>
+            <Head>
+                <title>ぐるぐる質問</title>
+                <meta name="description" content="ぐるぐる質問で遊ぼう" />
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
             <div className={styles.content}>
                 <div className={styles.side}>
                     <Side/>

@@ -1,33 +1,17 @@
 [
     {
-        "title":"創作傾向を鉱物に例えると・・・",
-        "question":"キャラの設定は事前にしっかり考える",
+        "parent":[""],
+        "question":"体を動かすのが好き",
         "answers":[
             {
-                "ansid":"1y",
-                "ansvalue":"1"
+            "ansid":"1y",
+            "anstext":"YES",
+            "ansvalue":"l,運動部"
             },
             {
-                "ansid":"1n",
-                "anstext":"NO",
-                "ansvalue":"0"
-            }
-        ]
-    },
-    {
-        "parent":["1y"],
-        "title":"創作傾向を鉱物に例えると・・・",
-        "question":"現在の話より過去話しに力が入りがち",
-        "answers":[
-            {
-                "ansid":"2y",
-                "anstext":"YES",
-                "ansvalue":"1"
-            },
-            {
-                "ansid":"2n",
-                "anstext":"NO",
-                "ansvalue":"0"
+            "ansid":"1n",
+            "anstext":"NO",
+            "ansvalue":"l,文化部"
             }
         ]
     }

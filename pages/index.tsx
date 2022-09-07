@@ -26,6 +26,7 @@ const Home: NextPage = () => {
     .then((res)=>{
       if(res.data === 0){
         setErr(true);
+        console.log(res.data);
         setLoading(false);
         return;
       }
