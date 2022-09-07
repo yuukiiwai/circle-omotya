@@ -1,0 +1,18 @@
+.table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.id{
+    cursor: pointer;
+}
+
+.bboard{
+    border-bottom: solid 1px black;
+}
+
+@media (prefers-color-scheme: dark) {
+    .bboard{
+        border-bottom: solid 1px white;
+    }
+}

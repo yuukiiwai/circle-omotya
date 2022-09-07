@@ -1,0 +1,11 @@
+.title{
+    resize: none;
+    width: 40em;
+    height: 5em;
+}
+
+.content{
+    resize: none;
+    width: 40em;
+    height: 35em;
+}

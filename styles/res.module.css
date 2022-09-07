@@ -1,0 +1,11 @@
+.result{
+    color: rgb(119, 170, 0);
+    font-size: 36pt;
+}
+
+@media (prefers-color-scheme: dark) {
+    .result{
+        color: aquamarine;
+        font-size: 36pt;
+    }
+}

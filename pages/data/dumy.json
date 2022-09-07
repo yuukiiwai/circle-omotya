@@ -1,0 +1,34 @@
+[
+    {
+        "title":"創作傾向を鉱物に例えると・・・",
+        "question":"キャラの設定は事前にしっかり考える",
+        "answers":[
+            {
+                "ansid":"1y",
+                "ansvalue":"1"
+            },
+            {
+                "ansid":"1n",
+                "anstext":"NO",
+                "ansvalue":"0"
+            }
+        ]
+    },
+    {
+        "parent":["1y"],
+        "title":"創作傾向を鉱物に例えると・・・",
+        "question":"現在の話より過去話しに力が入りがち",
+        "answers":[
+            {
+                "ansid":"2y",
+                "anstext":"YES",
+                "ansvalue":"1"
+            },
+            {
+                "ansid":"2n",
+                "anstext":"NO",
+                "ansvalue":"0"
+            }
+        ]
+    }
+]
