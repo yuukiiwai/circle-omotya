@@ -10,6 +10,7 @@ import { resultType,titlesType } from '../model/def/types'
 import Title from './components/title'
 import Side from './components/side'
 import ReactLoading from 'react-loading';
+import Headcom from './components/headcom'
 
 const Home: NextPage = () => {
   const [data,setData] = useState<Array<___question>>([]);
@@ -52,9 +53,9 @@ const Home: NextPage = () => {
   return (
     <div className={styles.center}>
       <Head>
-        <title>ぐるぐる質問</title>
-        <meta name="description" content="ぐるぐる質問で遊ぼう" />
-        <link rel="icon" href="/favicon.ico" />
+        <title>心理テストおもちゃ箱</title>
+        <meta name="description" content="心理テストおもちゃ箱" />
+        <Headcom />
       </Head>
       <div className={styles.content}>
         <div className={styles.side}>

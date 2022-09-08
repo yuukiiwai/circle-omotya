@@ -2,11 +2,10 @@ import { FC } from "react";
 
 const Headcom:FC = () => {
     return(
-        <div>
-            <title>ぐるぐる質問</title>
-            <meta name="description" content="ぐるぐる質問で遊ぼう" />
+        <>
             <link rel="icon" href="/favicon.ico" />
-        </div>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8707396742877439" crossOrigin="anonymous"></script>
+        </>
     );
 }
 

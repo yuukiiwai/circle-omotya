@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import ReactLoading from 'react-loading';
 import Head from 'next/head'
+import Headcom from "./components/headcom";
 
 const Alltest:NextPage = () =>{
     const [tests,setTests] = useState<testsType>({tests:[]});
@@ -32,15 +33,16 @@ const Alltest:NextPage = () =>{
     return(
         <div className={styles.center}>
             <Head>
-                <title>ぐるぐる質問</title>
-                <meta name="description" content="ぐるぐる質問で遊ぼう" />
-                <link rel="icon" href="/favicon.ico" />
+                <title>心理テスト一覧</title>
+                <meta name="description" content="心理テスト一覧" />
+                <Headcom />
             </Head>
             <div className={styles.content}>
                 <div className={styles.side}>
                     <Side/>
                 </div>
                 <main className={styles.main}>
+                    <h1>心理テスト一覧</h1>
                     <table className={thstyles.table}>
                         <thead>
                             <tr >
